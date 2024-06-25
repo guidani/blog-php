@@ -1,11 +1,14 @@
 <?php
 require_once("./templates/header.php");
+
+echo "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI'] . '?') . '/';
 ?>
+
 
 <section class="section">
   <div class="container">
     <h1 class="title font-700">
-      Hello World
+      Contato
     </h1>
   </div>
 </section>
