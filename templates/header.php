@@ -15,6 +15,7 @@ $BASE_URL = "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI'] 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <script src="./scripts/mobilemenu.js" defer></script>
 </head>
 
 <body>
@@ -27,12 +28,13 @@ $BASE_URL = "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI'] 
         </a>
 
         <!-- TODO: Fazer o menu lateral mobile -->
-        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+        <button class="navbar-burger" role="button" aria-label="menu" aria-expanded="true" id="hamburguer-menu">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+          <!--  -->
+        </button>
       </div>
       <ul class="navbar-menu">
         <div class="navbar-start">
