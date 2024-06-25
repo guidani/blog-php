@@ -2,10 +2,11 @@
 require_once("./templates/header.php");
 ?>
 
+
 <section class="section">
   <div class="container">
     <h1 class="title font-700">
-      Hello World
+      Contato
     </h1>
   </div>
 </section>
