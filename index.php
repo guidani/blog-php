@@ -41,6 +41,13 @@ function truncateText($text, $numWords)
                 <?= truncateText($post['body'], 20); ?>
               </p>
             </div>
+            <div class="card-footer">
+              <?php foreach ($post['tags'] as $tag) : ?>
+                <span class="tag">
+                  <a href=""><?= ucfirst($tag)  ?></a>
+                </span>
+              <?php endforeach; ?>
+            </div>
           </div>
         <?php endforeach; ?>
       </div>
