@@ -21,7 +21,7 @@ $posts = [
       "fiction",
       "english"
     ],
-    "img" => "prog-1.jpg"
+    "img" => "prog-2.jpg"
   ],
   [
     "id" => 3,
@@ -32,7 +32,7 @@ $posts = [
       "history",
       "french"
     ],
-    "img" => "prog-1.jpg"
+    "img" => "prog-3.jpg"
   ],
   [
     "id" => 4,
@@ -43,7 +43,7 @@ $posts = [
       "english",
       "american"
     ],
-    "img" => "prog-1.jpg"
+    "img" => "prog-4.png"
   ],
   [
     "id" => 5,
@@ -65,7 +65,7 @@ $posts = [
       "classic",
       "american"
     ],
-    "img" => "prog-1.jpg"
+    "img" => "prog-2.jpg"
   ],
   [
     "id" => 7,
@@ -75,7 +75,7 @@ $posts = [
       "magical",
       "crime"
     ],
-    "img" => "prog-1.jpg"
+    "img" => "prog-3.jpg"
   ],
   [
     "id" => 8,
@@ -85,7 +85,7 @@ $posts = [
       "american",
       "english"
     ],
-    "img" => "prog-1.jpg"
+    "img" => "prog-4.png"
   ],
   [
     "id" => 9,
@@ -107,7 +107,7 @@ $posts = [
       "magical",
       "history"
     ],
-    "img" => "prog-1.jpg"
+    "img" => "prog-2.jpg"
   ]
 
 ];

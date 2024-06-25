@@ -9,6 +9,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+} */
+
 .font-700 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
