@@ -1,5 +1,10 @@
 <?php
-$BASE_URL = "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI'] . '?') . '/';
+// $BASE_URL = "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI'] . '?') . '/';
+
+include_once("helpers/url.php");
+
+include_once("data/posts.php");
+include_once("data/categories.php");
 ?>
 
 <!DOCTYPE html>
