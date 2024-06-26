@@ -1,9 +1,6 @@
 <footer class="footer">
-  <section class="content">
-    <p>Guilherme Daniel &copy; 2024</p>
-  </section>
+  <p>Guilherme Daniel &copy; 2024</p>
 </footer>
-
 </body>
 
 </html>
